@@ -26,9 +26,8 @@
 }
 #contact {
     background-color:white;
-    width: 100%;
     text-align: center;
-    padding: 100px;
+    padding: 50px;
 }
 
 #resume {
@@ -55,16 +54,9 @@
 .btn {
     border:0px solid transparent;
 }
-#mail-btn{
-    font-size: 50px;
-}
 
 h3 {
     text-align: left !important;
-}
-hr {
-    color:whitesmoke;
-    height: 3px;
 }
 .skill {
     margin: 5px;
@@ -72,6 +64,9 @@ hr {
 }
 #mail-btn {
     border:0px solid transparent;
+    font-size: 50px;
+    margin-top: 30px;
+
 }
 
 .btn-section {
@@ -79,8 +74,3 @@ hr {
     bottom: 20px;
     right: 50%; 
 }
-
-#mail-section {
-    padding: 100px;
-}
-
