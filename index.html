@@ -11,7 +11,7 @@
 		<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-		<title>My Portfolio</title>
+		<title>Matthew Curran</title>
 	</head>
 	<body>
     <div class="container-fluid">
@@ -39,12 +39,6 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#contact">CONTACT</a>
 					</li>
-					<!-- <li class="divider">
-							<a class="nav-link separator">|</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#resume">RESUME</a>
-					</li> -->
 				</ul>
 			</div>
 		</nav>
@@ -61,11 +55,38 @@
 						<a href="https://twitter.com/ThisCoder" target="_blank"><i class="fab fa-twitter-square icon"></i></a>
 					</div>
 					<hr>
+					<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#resumeModal">RESUME</button>
 					<br>
-					<!-- <button type="button" class="btn btn-outline-dark btn-lg move-btn"><a href="#skills"><i class="fas fa-angle-double-down"></i></a></button> -->
 				</div>
 			</div>
 		</div>
+
+		<!-- MODAL START --><!-- MODAL START --><!-- MODAL START --><!-- MODAL START --><!-- MODAL START --><!-- MODAL START -->
+
+		<div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">My Resume</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body col-md-12">
+							<img src="assets/images/Capture resume.PNG" style="width:700px;height:800px;">
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<a href="assets/images/MCRESUME.pdf" download=""><button type="button" class="btn btn-primary">Download</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- MODAL END --><!-- MODAL END --><!-- MODAL END --><!-- MODAL END --><!-- MODAL END --><!-- MODAL END --><!-- MODAL END -->
+
 		<br><br><br><br>
 		<div class="d-flex justify-content-center" id="skills">
 			<div class="row">
@@ -184,12 +205,13 @@
 			<!-- <div class="row" id="resume">
 				<div class="col-md-12">
 					<h3>RESUME</h3>
-					<a href="#" target="_blank">RESUME HERE</a>
-					<br>
-					<button type="button" class="btn btn-outline-dark btn-lg move-btn"><a href="#intro"><i class="fas fa-angle-double-up"></i></a></button>
+					<hr>
+					<button type="button">
+						<img src="assets/images/Capture resume.PNG" style="width:600px;height:800px;">
+					</button>
 				</div>
-			</div> -->
-
+			</div>
+ -->
 		<script type="text/javascript" src="./assets/js/logic.js"></script>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
