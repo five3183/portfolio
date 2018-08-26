@@ -61,6 +61,10 @@ h3 {
 .skill {
     margin: 5px;
     background-color: white;
+    
+}
+.skill:hover {
+    transform: scale(1.1);
 }
 #mail-btn {
     border:0px solid transparent;
