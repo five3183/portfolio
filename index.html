@@ -14,208 +14,250 @@
 		<title>Matthew Curran</title>
 	</head>
 	<body>
-    <div class="container-fluid">
-		<nav class="navbar navbar-expand-sm bg-light navbar-light">	
-			<div class="collapse navbar-collapse" id="collapsibleNavbar">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#intro">Home</a>
-					</li>
-					<li class="divider">
-						<a class="nav-link separator">|</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#skills">SKILLS</a>
-					</li>
-					<li class="divider">
-						<a class="nav-link separator">|</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#projects">PROJECTS</a>
-					</li>
-					<li class="divider">
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-sm bg-light navbar-light">	
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#intro">Home</a>
+						</li>
+						<li class="divider">
 							<a class="nav-link separator">|</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact">CONTACT</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<div class="d-flex justify-content-center align-items-center" id="intro">
-			<div class="row">
-				<div class="col-md-12">
-					<h1>Matthew Curran</h1>
-					<br>
-					<span><h4>Full-Stack Developer</h4></span>
-					<hr>
-					<div class="social-links">
-						<a href="https://www.linkedin.com/in/matthew-curran-2b627215a/" target="_blank"><i class="fab fa-linkedin icon"></i></a>
-						<a href="https://github.com/five3183" target="_blank"><i class="fab fa-github-square icon"></i></a>
-						<a href="https://twitter.com/ThisCoder" target="_blank"><i class="fab fa-twitter-square icon"></i></a>
-					</div>
-					<hr>
-					<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#resumeModal">RESUME</button>
-					<br>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#skills">SKILLS</a>
+						</li>
+						<li class="divider">
+							<a class="nav-link separator">|</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#projects">PROJECTS</a>
+						</li>
+						<li class="divider">
+								<a class="nav-link separator">|</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">CONTACT</a>
+						</li>
+					</ul>
 				</div>
+			</nav>
+			<div class="d-flex justify-content-center align-items-center" id="intro">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Matthew Curran</h1>
+						<br>
+						<span><h4>Full-Stack Developer</h4></span>
+						<hr>
+						<div class="social-links">
+							<a href="https://www.linkedin.com/in/matthew-curran-2b627215a/" target="_blank"><i class="fab fa-linkedin icon"></i></a>
+							<a href="https://github.com/five3183" target="_blank"><i class="fab fa-github-square icon"></i></a>
+						</div>
+						<hr>
+						<button type="button" class="btn btn-outline-primary" id="resume-btn">RESUME</button>
+						<br>
+					</div>
+				</div>
+			</div>
+			<div class="invisible" id="resume" style="height:0px">
+				<div class="text-center" id="resume-container">
+					<img src="assets/images/Capture resume.PNG" style="width:700px;height:800px;">
+				</div>
+				<div class="text-center">
+					<button type="button" class="btn btn-secondary" id="close-btn">Close</button>
+					<a href="assets/images/MCRESUME.pdf" download=""><button type="button" class="btn btn-primary text-right">Download</button></a>
+				</div>
+			</div>
+			<div class="d-flex justify-content-center" id="skills">
+				<div class="row">
+					<div class="col-md-12">
+						<h3>CODING SKILLS</h3>
+						<hr>
+						<br><br>
+						<div class="row">
+							<div id="skills-section" class="col-md-12">
+								<img src="assets/images/html.png" class="skill" style="width:50px;height:50px;border:1;">
+								<img src="assets/images/css.png" class="skill" style="width:50px;height:50px;border:1;">
+								<img src="assets/images/JS.png" class="skill" style="width:50px;height:50px;border:1;">
+								<img src="assets/images/BS.png" class="skill" style="width:50px;height:50px;border:1;">
+								<img src="assets/images/jquery.png" class="skill" style="width:50px;height:50px;border:1;">
+								<img src="assets/images/ajax.png" class="skill" style="width:50px;height:50px;border:1;">
+								<img src="assets/images/nodejs.png" class="skill" style="width:50px;height:50px;border:1;">
+								<img src="assets/images/express.png" class="skill" style="width:50px;height:50px;border:1;">
+								<img src="assets/images/mysql.png" class="skill" style="width:50px;height:50px;border:1;">
+								<img src="assets/images/mongo.png" class="skill" style="width:50px;height:50px;border:1;">
+								<img src="assets/images/hb.png" class="skill" style="width:50px;height:50px;border:1;">
+								<img src="assets/images/REACT.png" class="skill" style="width:50px;height:50px;border:1;">
+							</div>
+						</div>
+						<br><br><br><br>
+					</div>
+				</div>
+			</div>
+			<div class="d-flex justify-content-center" id="projects">
+				<div class="row">
+					<div class="col-md-12">
+						<h3>PROJECTS</h3>
+						<hr>
+						<div class="row">
+							<div class="col-md-4 mb-4 project-container">
+								<img src="assets/images/letter.jpg" style="width:200px;height:150px;border:1;" class="project">
+								<div class="overlay invisible">Can you guess the random letter?
+									 <div>
+										<a href="https://five3183.github.io/Psychic-Game/" target="_blank">Play it here...</a>
+										<br>
+										<a href="https://github.com/five3183/Psychic-Game" target="_blank">See code here...</a>
+									 </div> 
+								</div>
+							</div>
+							<div class="col-md-4 mb-4 project-container">
+								<img src="assets/images/crystals.jpg" style="width:200px;height:150px;border:1;" class="project">
+								<div class="overlay invisible">Four crystals, one random number. Can you get the random number?
+									<div>
+										<a href="https://five3183.github.io/crystal-collector/" target="_blank">Play it here...</a>
+										<br>
+										<a href="https://github.com/five3183/crystal-collector" target="_blank">See code here...</a>
+									</div>
+									
+								</div>
+							</div>
+							<div class="col-md-4 mb-4 project-container">
+								<img src="assets/images/trivia.gif" style="width:200px;height:150px;border:1;" class="project">
+								<div class="overlay invisible">Walking Dead Trivia Game.
+									<div>
+										<a href="https://five3183.github.io/triviagame/" target="_blank">Play it here...</a>
+										<br>
+										<a href="https://github.com/five3183/triviagame" target="_blank">See code here...</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 mb-4 project-container">
+								<img src="assets/images/giphy.jpg" style="width:200px;height:150px;border:1;" class="project">
+								<div class="overlay invisible">Add your favorite villains (or anything) and view top 10 gifs..
+									<div>
+										<a href="https://five3183.github.io/giphypage/" target="_blank" class="one">Play it here...</a>
+										<br>
+										<a href="https://github.com/five3183/giphypage" target="_blank" class="one">See code here...</a>
+									</div>   
+								</div>
+							</div>
+							<div class="col-md-4 mb-4 project-container">
+								<img src="assets/images/store.jpg" style="width:200px;height:150px;border:1;" class="project">
+								<div class="overlay invisible">Store inventory app in Node.js.
+									<div>
+										<br>
+										<a href="https://github.com/five3183/BAMAZON" target="_blank">See code here...</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 mb-4 project-container">
+								<img src="assets/images/friends.png" style="width:200px;height:150px;border:1;" class="project">
+								<div class="overlay invisible">Your friends await! Find them here with Friend Finder!
+									<div>
+										<a href="https://gentle-peak-54234.herokuapp.com/" target="_blank">Play it here...</a>
+										<br>
+										<a href="https://github.com/five3183/FriendFinder" target="_blank">See code here...</a>
+									</div>
+								</div>   
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 mb-4 project-container">
+								<img src="assets/images/burger.jpeg" style="width:200px;height:150px;border:1;" class="project">
+								<div class="overlay invisible">Who doesn't like burgers? Create and eat them here! ZERO CAL GUARANTEE!
+									<div>
+										<a href="https://serene-badlands-56706.herokuapp.com/" target="_blank">Play it here...</a>
+										<br>
+										<a href="https://github.com/five3183/burger" target="_blank">See code here...</a>
+									</div>   
+								</div>
+							</div>
+							<div class="col-md-4 mb-4 project-container">
+								<img src="assets/images/loan.jpg" style="width:200px;height:150px;border:1;" class="project">
+								<div class="overlay invisible">Loan Calculator
+									<div>
+										<a href="https://five3183.github.io/LoanCalculator/" target="_blank">Play it here...</a>
+										<br>
+										<a href="https://github.com/five3183/LoanCalculator" target="_blank">See code here...</a>
+									</div>   
+								</div>
+							</div>
+							<div class="col-md-4 mb-4 project-container">
+								<img src="assets/images/minion.jpg" style="width:200px;height:150px;border:1;" class="project">
+								<div class="overlay invisible">This is a memory game.  Don't click the same image twice!!
+									<div>
+										<a href="https://calm-bastion-93483.herokuapp.com/" target="_blank">Play it here...</a>
+										<br>
+										<a href="https://github.com/five3183/clicky" target="_blank">See code here...</a>
+									</div>   
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 mb-4 project-container">
+								<img src="assets/images/currency.jpg" style="width:200px;height:150px;border:1;" class="project">
+								<div class="overlay invisible">Track popular cryptocurrencies.
+									<div>
+										<a href="https://five3183.github.io/CryptoCurrencyApp/" target="_blank">Play it here...</a>
+										<br>
+										<a href="https://github.com/five3183/CryptoCurrencyApp" target="_blank">See code here...</a>
+									</div>  
+								</div>
+							</div>
+							<div class="col-md-4 mb-4 project-container">
+								<img src="assets/images/rest.jpg" style="width:200px;height:150px;border:1;" class="project">
+								<div class="overlay invisible">Is that resturant busy? Find out with NOPE!
+									<div>
+										<a href="http://dhrandy-nope.herokuapp.com/" target="_blank">Play it here...</a>
+										<br>
+										<a href="https://github.com/dhrandy/project-2" target="_blank">See code here...</a>
+									</div>   
+								</div>
+							</div>
+							<div class="col-md-4 mb-4 project-container">
+								<img src="assets/images/p3.PNG" style="width:200px;height:150px;border:1;" class="project">
+								<div class="overlay invisible">A personal prescription planner.
+									<div>
+										<a href="https://presonal-prescription-planner.herokuapp.com/" target="_blank">Play it here...</a>
+										<br>
+										<a href="https://github.com/taw1313/team-merge-p3" target="_blank">See code here...</a>
+									</div>  
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+			</div>
+			<br><br><br><br>
+			<div class="d-flex justify-content-center" id="contact">
+				<div class="row">
+					<div class="col-md-12">
+						<h3>EMAIL ME</h3>
+						<hr>
+						<div class="row">
+							<div id = "mail-section" class="col-md-12">
+								<a href="mailto:five3183@gmail.com"><div id="mail-btn"><img src="assets/images/email.png" style="width:200px;height:150px;"></div></a>
+								<br>
+								<span>FIVE3183@GMAIL.COM</span>
+							</div>
+						</div>
+						<br>
+					</div>
+				</div>
+			</div>
+			<br><br><br>
+			<div class="d-flex justify-content-center" id="footer">
+				<hr>
+				<hr>
+				<h6>Matthew Curran 2018</h6>
 			</div>
 		</div>
-
-		<!-- MODAL START --><!-- MODAL START --><!-- MODAL START --><!-- MODAL START --><!-- MODAL START --><!-- MODAL START -->
-
-		<div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered" role="document">
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title" id="exampleModalLabel">My Resume</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<div class="modal-body col-md-12">
-							<img src="assets/images/Capture resume.PNG" style="width:700px;height:800px;">
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-							<a href="assets/images/MCRESUME.pdf" download=""><button type="button" class="btn btn-primary">Download</button></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- MODAL END --><!-- MODAL END --><!-- MODAL END --><!-- MODAL END --><!-- MODAL END --><!-- MODAL END --><!-- MODAL END -->
-
-		<br><br><br><br>
-		<div class="d-flex justify-content-center" id="skills">
-			<div class="row">
-				<div class="col-md-12">
-					<h3>CODING SKILLS</h3>
-					<hr>
-					<br><br>
-					<div class="row">
-						<div id="skills-section" class="col-md-12">
-							<img src="assets/images/html.png" class="skill" style="width:50px;height:50px;border:1;">
-							<img src="assets/images/css.png" class="skill" style="width:50px;height:50px;border:1;">
-							<img src="assets/images/JS.png" class="skill" style="width:50px;height:50px;border:1;">
-							<img src="assets/images/BS.png" class="skill" style="width:50px;height:50px;border:1;">
-							<img src="assets/images/jquery.png" class="skill" style="width:50px;height:50px;border:1;">
-							<img src="assets/images/ajax.png" class="skill" style="width:50px;height:50px;border:1;">
-							<img src="assets/images/nodejs.png" class="skill" style="width:50px;height:50px;border:1;">
-							<img src="assets/images/express.png" class="skill" style="width:50px;height:50px;border:1;">
-							<img src="assets/images/mysql.png" class="skill" style="width:50px;height:50px;border:1;">
-							<img src="assets/images/mongo.png" class="skill" style="width:50px;height:50px;border:1;">
-							<img src="assets/images/hb.png" class="skill" style="width:50px;height:50px;border:1;">
-							<img src="assets/images/REACT.png" class="skill" style="width:50px;height:50px;border:1;">
-						</div>
-					</div>
-					<br><br><br><br>
-				</div>
-			</div>
-		</div>
-		<div class="d-flex justify-content-center" id="projects">
-			<div class="row">
-				<div class="col-md-12">
-					<h3>PROJECTS</h3>
-					<hr>
-					<div class="row">
-						<div class="col-md-4">
-							<button type="button" class="btn btn-outline-primary" data-container="body" data-toggle="popover" data-placement="top" data-content="Can you guess the random letter?   <a href='https://five3183.github.io/Psychic-Game/' target='_blank'>Play it here...</a>">
-								<img src="assets/images/letter.jpg" style="width:200px;height:150px;border:1;">
-							</button>
-						</div>
-						<div class="col-md-4">
-							<button type="button" class="btn btn-outline-primary" data-container="body" data-toggle="popover" data-placement="top" data-content="Four crystals, one random number. Can you get the random number?   <a href='https://five3183.github.io/crystal-collector/' target='_blank'>Play it here...</a>">
-								<img src="assets/images/crystals.jpg" style="width:200px;height:150px;">
-							</button>
-						</div>
-						<div class="col-md-4">
-							<button type="button" class="btn btn-outline-primary" class="btn btn-outline-primary" data-container="body" data-toggle="popover" data-placement="top" data-content="Walking Dead Trivia Game.   <a href='https://five3183.github.io/triviagame/' target='_blank'>Play it here...</a>">
-								<img src="assets/images/trivia.gif" style="width:200px;height:150px;">
-							</button>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<button type="button" class="btn btn-outline-primary" data-container="body" data-toggle="popover" data-placement="top" data-content="Add your favorite villains (or anything) and view top 10 gifs..  <a href=' https://five3183.github.io/giphypage/' target='_blank'>See it here...</a>">
-								<img src="assets/images/giphy.jpg" style="width:200px;height:150px;">
-							</button>
-						</div>
-						<div class="col-md-4">
-							<button type="button" class="btn btn-outline-primary" data-container="body" data-toggle="popover" data-placement="top" data-content="Store inventory app in Node.js.  <a href='https://github.com/five3183/BAMAZON.git' target='_blank'>See it here...</a>">
-								<img src="assets/images/store.jpg" style="width:200px;height:150px;">
-							</button>
-						</div>
-						<div class="col-md-4">
-							<button type="button" class="btn btn-outline-primary"data-container="body" data-toggle="popover" data-placement="top" data-content="Your friends await! Find them here with Friend Finder!  <a href='https://gentle-peak-54234.herokuapp.com/' target='_blank'>Find them here...</a>">
-								<img src="assets/images/friends.png" style="width:200px;height:150px;">
-							</button>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<button type="button" class="btn btn-outline-primary" data-toggle="popover" data-placement="top" data-content="Who doesn't like burgers? Create and eat them here! ZERO CAL GUARANTEE!  <a href='https://serene-badlands-56706.herokuapp.com/' target='_blank'>Eat them here...</a>">
-								<img src="assets/images/burger.jpeg" style="width:200px;height:150px;">
-							</button>
-						</div>
-						<div class="col-md-4">
-							<button type="button" class="btn btn-outline-primary" data-toggle="popover" data-placement="top" data-content="Track popular cryptocurrencies and view cryptocurrency news on a singe page.  <a href='https://five3183.github.io/CryptoCurrencyApp/' target='_blank'>See it here...</a>">
-								<img src="assets/images/currency.jpg" style="width:200px;height:150px;">
-							</button>
-						</div>
-						<div class="col-md-4">
-							<button type="button" class="btn btn-outline-primary" data-toggle="popover" data-placement="top" data-content="Is that resturant busy?  Find out with NOPE!  <a href='http://dhrandy-nope.herokuapp.com/' target='_blank'>See it here...</a>">
-								<img src="assets/images/rest.jpg" style="width:200px;height:150px;">
-							</button>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<button type="button" class="btn btn-outline-primary" data-toggle="popover" data-placement="top" data-content="This is a memory game.  Don't click the same image twice!  <a href='https://calm-bastion-93483.herokuapp.com/' target='_blank'>Play it here...</a>">
-								<img src="assets/images/minion.jpg" style="width:200px;height:150px;">
-							</button>
-						</div>
-							<div class="col-md-4">
-						<button type="button" class="btn btn-outline-primary" data-toggle="popover" data-placement="top" data-content="A personal prescription planner designed to track medications and send text message reminders at specified dosage times.  <a href='https://presonal-prescription-planner.herokuapp.com/' target='_blank'>See it here...</a>">
-							<img src="assets/images/p3.PNG" style="width:200px;height:150px;">
-						</button>
-					</div>
-				</div>
-			</div>
-			<br>
-			</div>
-		</div>
-		<br><br><br><br>
-		<div class="d-flex justify-content-center" id="contact">
-			<div class="row">
-				<div class="col-md-12">
-					<h3>CONTACT ME</h3>
-					<hr>
-					<div class="row">
-						<div id = "mail-section" class="col-md-12">
-							<a href="mailto:five3183@gmail.com"><button type="button" class="btn btn-outline-dark btn-lg" id="mail-btn"><img src="assets/images/email.png" style="width:200px;height:150px;"></button></a>
-						</div>
-					</div>
-					<br>
-					
-				</div>
-			</div>
-		</div>
-			<!-- <div class="row" id="resume">
-				<div class="col-md-12">
-					<h3>RESUME</h3>
-					<hr>
-					<button type="button">
-						<img src="assets/images/Capture resume.PNG" style="width:600px;height:800px;">
-					</button>
-				</div>
-			</div>
- -->
 		<script type="text/javascript" src="./assets/js/logic.js"></script>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
 	</body>
 </html>
