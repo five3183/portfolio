@@ -5,6 +5,10 @@
 body {
 	overflow-x: hidden;
 }
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
 #intro {
 	background-image: url("../images/wood.jpg");
 	background-size: cover;
@@ -77,4 +81,16 @@ h3 {
 	opacity: 0.8;
 	width:200px;
 	height:150px;
+	padding: 10px;
+}
+
+a.block {
+	display: block;
+}
+
+#footer {
+	background-image: url("../images/wood.jpg");
+	height: 40px;
+	padding: 10px;
+	color: white;
 }
